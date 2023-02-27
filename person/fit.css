@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    overflow-y: hidden;
+}
+
+.welcome{
+    width:100vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 120px;
+
+}
+.welcome h1{
+    font-size: 50px;
+}
+
+.quote{
+    width:100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote h2{
+    font-size: 30px;
+}
+.carousel{
+    width:100vw;
+    height: calc(100vh - 55vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.carousel .card{
+    background: rgb(248, 248, 248);
+    margin-right: 40px;
+    width: 13vw;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: -1px 3px 20px -1px rgba(0,0,0,0.33);
+    transition: all 0.3s;
+}
+.carousel .card a{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 12;
+}
+.carousel .card h1{
+    transition: all 0.3s;
+}
+
+.carousel .card:hover{
+    background: url(HD-wallpaper-one-arm-push-ups-model-people-man-sexy-other.jpg);
+    background-size: 120%;
+}
+.carousel .tue:hover{
+    background: url(pullups_man_workout_121789_1280x720.jpg);
+    background-size: 140%;
+}
+.carousel .wed:hover{
+    background: url(istockphoto-1287874606-170667a.jpg);
+    background-size: 130%;
+}
+.carousel .card:hover h1{
+    color: aliceblue;
+}
+
+
+#mon{
+    width: 100vw;
+    height: 100vh;
+    padding:80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#mon h1{
+    font-size: 50px;
+    
+}
+
+#mon ul{
+    text-align: center;
+    margin-top: 40px;
+}
+#mon ul li{
+    list-style: none;
+    
+    margin: 40px 0px;
+    transition: all 1s;
+}
+#mon ul li a{
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+#mon ul li:hover a{
+    font-size: 22px;
+}
+
+
+#tue{
+    width: 100vw;
+    height: 100vh;
+    padding:80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#tue h1{
+    font-size: 50px;
+    
+}
+
+#tue ul{
+    text-align: center;
+    margin-top: 40px;
+}
+#tue ul li{
+    list-style: none;
+    
+    margin: 40px 0px;
+    transition: all 1s;
+}
+#tue ul li a{
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+#tue ul li:hover a{
+    font-size: 22px;
+}
+
+
+#wed{
+    width: 100vw;
+    height: 100vh;
+    padding:80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#wed h1{
+    font-size: 50px;
+    
+}
+
+#wed ul{
+    text-align: center;
+    margin-top: 40px;
+}
+#wed ul li{
+    list-style: none;
+    
+    margin: 40px 0px;
+    transition: all 1s;
+}
+#wed ul li a{
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+#wed ul li:hover a{
+    font-size: 22px;
+}
+
+#weight{
+    width: 100vw;
+    height: 100vh;
+    padding:80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#weight h3{
+    margin-top: 30px;
+    font-weight: 500;
+}
+#weight h3 span{
+    margin-left: 10px;
+    font-weight: 700;
+}
